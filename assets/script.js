@@ -1,16 +1,31 @@
 // Define quiz questions and answers
 const questions = [
     {
-      question: "Question 1: What is the correct HTML tag for inserting a line break?",
+      question: " What is the correct HTML tag for inserting a line break?",
       choices: ["A) <br>", "B) <break>", "C) <div>", "D) <header>"],
       correctAnswer: 0
     },
     {
-      question: "How can you center align an element horizontally in CSS?",
+      question: " How can you center align an element horizontally in CSS?",
       choices: ["A) text-align: center;", "B) align: center;", "C) horizontal-align: center;", "D) margin: auto;"],
       correctAnswer: 3
     },
-    // Add more questions...
+    {
+      question: " How can you change the color of a text in CSS?",
+      choices: ["A) text-color", "B) color", "C) font-color", "D) text-style"],
+      correctAnswer: 1
+    },
+    {
+      question: "Which HTML tag is used to create a bulleted list?",
+      choices: ["A) <ul>", "B) <ol>", "C) <li>", "D) <list>"],
+      correctAnswer: 0
+    },
+    {
+      question: " How can you center align an element horizontally in CSS?",
+      choices: ["A) text-align: center;", "B) align: center;", "C) horizontal-align: center;", "D) margin: auto"],
+      correctAnswer: 3
+    },
+    
   ];
   
   let currentQuestion = 0;
