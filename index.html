@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro To Coding Quiz</title>
-    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 
 <body>
-    <header>
+    <header class="header">
         <h1 class="large-font">IntroQuiz</h1>
         <button id="startButton">Start Quiz</button>
     </header>
@@ -19,10 +19,10 @@
             <div id="quiz-container">
                 <h1 id="question"></h1>
                 <ul id="choices">
-                  <li class="choice"></li>
-                  <li class="choice"></li>
-                  <li class="choice"></li>
-                  <li class="choice"></li>
+                  <li class="choice" data-index="0"></li>
+                  <li class="choice" data-index="1"></li>
+                  <li class="choice" data-index="2"></li>
+                  <li class="choice" data-index="3"></li>
                 </ul>
                 <button id="submit">Submit</button>
               </div>
@@ -33,7 +33,7 @@
         </section>
     </main>
 
-    <script src="assets/js/script.js"></script>   
+  <script src="assets/script.js"></script>   
 </body>
 
 </html>
