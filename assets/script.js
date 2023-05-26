@@ -81,7 +81,7 @@ const questions = [
 let currentQuestion = 0;
 let score = 0;
 let timeLeft = 80; // Time in seconds
-let timerInterval;
+let timerInterval = null;
 
 // DOM elements
 const questionElement = document.getElementById("question");
