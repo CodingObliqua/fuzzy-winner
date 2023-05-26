@@ -1,4 +1,5 @@
 # fuzzy-winner
+
 ## Description
 
 The Code A Quiz project is a application that allows users to take a quiz to test their knowledge of JavaScript. The project includes A functional start button, with a timer, and a question. At the end the user can save their initials and score.
@@ -11,7 +12,8 @@ The Code A Quiz project is a application that allows users to take a quiz to tes
 
 Overall, the project enhanced understanding and proficiency in web development, JavaScript programming, and user interface design.
 
-
+![My example page](assets/javaquiz.gif)
+Link to the page: https://codingobliqua.github.io/fuzzy-winner/
 
 ## Installation
 First step is to open github and create a new repository for Challenge 4 (Give the repo a unique name to help differ it from other projects), Open the files folder and open the newly made repo, There should be nothing but the read.me. Search the files for the UCB bootcamp file (in the same page or new one). The starter code should now be in the folder and be accessible. If no starter code you must create the code from scratch. Create a page using HTML, CSS, JavaScript to display a functional quiz. 
