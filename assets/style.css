@@ -19,7 +19,7 @@ header {
 }
 
 .title {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
   color: #675db0;
@@ -100,10 +100,18 @@ header {
   display: none;
 }
 
-#score {
-  font-size: 18px;
-  color: #fff;
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #675db0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+#score {
+  color: #ffffff;
+  font-weight: normal;
 }
 
 #initials-form {
@@ -130,6 +138,12 @@ header {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+label[for="initials"] {
+  font-size: 18px;
+  color: #675db0;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 #high-scores {
