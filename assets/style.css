@@ -76,10 +76,12 @@ header {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: transform 0.5s ease-in-out;
 }
 
 #start-button:hover {
   background-color: #45a683;
+  transform: translateY(-5px);
 }
 
 /* Timer Container */
@@ -194,7 +196,7 @@ label[for="initials"] {
 .social-icons i {
   color: #000;
   font-size: 24px;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 .social-icons a:hover i {
